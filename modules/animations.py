@@ -1,7 +1,7 @@
 """
 this module provides useless animated things:
-  - Usage: `.earth <speed>` (config value if None)
-  - Config: 
+  - `.earth <speed>` (config value if None)
+      `Config:`
         `.earth config` to view the config, 
         `.earth config speed=0.4` to update.
 - `.rainbow`: Animates the rainbow colors.

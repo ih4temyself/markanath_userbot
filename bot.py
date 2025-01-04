@@ -17,6 +17,7 @@ client = TelegramClient(session_name, api_id, api_hash)
 
 @client.on(events.NewMessage(pattern=r"\.help", outgoing=True))
 async def help_handler(event):
+    await event.delete()
     help_messages = []
     for module in os.listdir("modules"):
         if module.endswith(".py") and module != "__init__.py":

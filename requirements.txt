@@ -17,3 +17,4 @@ requests==2.32.3
 rsa==4.9
 Telethon==1.38.1
 urllib3==2.3.0
+lottie==0.7.2
